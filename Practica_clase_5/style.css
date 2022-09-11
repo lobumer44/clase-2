@@ -1,0 +1,67 @@
+/*---------------------INDEX CSS----------------*/
+.body{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-rows: 100px 70px 800px 400px 100px ;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "main main main aside"
+    "section-1 section-2 section-3 aside"
+    "footer footer footer footer"
+    ;
+
+}
+.header{
+    background-color: blue;
+    grid-area:header;
+    
+    /*cuando el flex direction es row, el que ajusta en el eje x es justify*/ 
+    /*cuando el flex direction es column, el que ajusta en el eje y es aligne-items*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px;
+    
+
+}
+.logocontainerheader{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+padding: 0 10px;
+
+}
+.nav{
+    background-color: red;
+    grid-area:nav;
+}
+.main{
+    background-color: greenyellow;
+    grid-area:main;
+}
+.section-1{
+    background-color: orange;
+    grid-area: section-1;
+}
+.section-2{
+    background-color: aqua;
+    grid-area: section-2;
+}
+.section-3{
+    background-color: yellow;
+    grid-area: section-3;
+}
+.aside{
+    background-color: blueviolet;
+    grid-area: aside;
+}
+.footer{
+    background-color: rgb(245, 122, 165);
+    grid-area: footer;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase_6</title>
+</head>
+<body>
+    <header id="arriba" class="encabezado">
+        <nav>
+            <ul class="menuSuperior">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="./pages/personajes.html#video">Personajes</a></li>
+                <li> <a href="./contactos.html">Contacto</a></li>
+                <li> <a href="#">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+<form action="https://formspree.io/f/xaykqzlb" method="post" class="formulario">
+    <fieldset class="fieldset">
+<legend>Formulario de contacto</legend>
+        <label for="nombre">Nombre</label>
+            <input type="text" name="nombre"
+            placeholder="ingresa tu nombre">
+
+        <label for="correo">Correo</label>
+            <input type="email" name="correo"
+            placeholder="ingresa tu email">
+
+        <label for="clave">Clave</label>
+            <input type="password" name="clave" 
+            placeholder=" ingresa tu contraseña">
+
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date">
+
+<label for="mensaje">escribi tu comentario</label>
+<br>
+<textarea name="mensaje" id="mensaje" cols="20" rows="20" minlength="2" maxlength="40"></textarea>
+    <input type="submit" value="enviar formulario" class="enviar"> 
+    <input type="reset" value="limpiar formulario">
+    <input type="botton" name="sin accion" id="">
+
+
+<label for="talles">Talles</label>
+<select name="talles" id="Talle">
+
+<option value="l">large</option>
+<option value="m">medium</option>
+<option value="s">small</option>
+
+
+</select>
+<p>Paises de origen</p>
+<label for="pais">Argentina</label>
+    <input type="radio" name="pais" value="Argentina">
+<label for="pais">Uruguay</label>
+    <input type="radio" name="pais" value="Uruguay">
+<label for="pais">Chile</label>
+    <input type="radio" name="pais" value="Chile">
+
+
+
+
+<div>Acepta los terminos y condiciones</div >
+    <div class="checkbox">
+<input type="checkbox" name="acepta" value="1" ></div>
+</fieldset>
+</form>
+
+    </section>
+
+
+
+   
+</html>

@@ -1,0 +1,34 @@
+a:hover{ font-weight:bold; background-color:blue; color:white; text-decoration:underline; }
+a:link{ text-decoration:none; color:red; }
+a:visited{ color:#999999; }
+a:active{ background-color:yellow; color:black; }
+.enviar:hover{
+    background-color: red;
+border: 2px solid;
+border-color: red;
+font-size: 1rem;
+}
+.enviar{
+    background-color:blue ;
+
+border-color: blue;
+border-radius: 4px;
+}
+.formulario{
+    padding: 6rem;
+    background-color: #f4f6f7;
+    margin: 2rem;
+    border-radius: 5px;
+}
+.formulario input, .formulario textarea, .formulario select{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.fieldset{
+border: none;
+}
+.checkbox{
+ display: flex;
+}
